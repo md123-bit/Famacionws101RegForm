@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>User Information Form</h2>
+    <form action="action.php" method="POST">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+        
+        <label for="youtube">Subscribe to youtube:</label>
+        <input type="checkbox" id="youtube" name="youtube" value="Yes"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
